@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Бетоков Барасби">
+    <meta name="keywords" content="Портфолио Бетоков Барасби html-верстальщик веб-разработчик">
+    <meta name="description"
+          content="Привет, я front-end developer. Моя специализация: разработка клиентской части в веб-приложениях. Ищу компанию с дружным коллективом профессионалов, где смогу перенять хорошие навыки front-end разработчика и стать частью хорошей компании для дальнейшего ее развития.">
+    <title>Portfolio. Betokov Barasbi - Front-end developer</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <link rel="preload" href="fonts/open-sans/open-sans-v17-latin-700.woff2" as="font">
+    <link rel="preload" href="fonts/open-sans/open-sans-v17-latin-800.woff2" as="font">
+    <link rel="preload" href="fonts/open-sans/open-sans-v17-latin-regular.woff2" as="font">
+    <link rel="stylesheet" href="css/style-min.css">
+</head>
+<body class="">
+
+<header class="main-header" id="home">
+    <div class="main-header--slider swiper-container my-swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide my-swiper--slide my-swiper--slide__about">
+                <div class="my-swiper--description">
+                    <p class="my-swiper--title">I'm Barasbi Betokov</p>
+                    <p class="my-swiper--subtitle">Create awesome websites</p>
+                    <a class="my-swiper--button" href="#about">About me</a>
+                </div>
+            </div>
+            <div class="swiper-slide my-swiper--slide my-swiper--slide__work">
+                <div class="my-swiper--description">
+                    <p class="my-swiper--title">My power booster</p>
+                    <p class="my-swiper--subtitle">Anything is good if it's made of chocolate</p>
+                    <a class="my-swiper--button" href="#portfolio">View my work</a>
+                </div>
+            </div>
+            <div class="swiper-slide my-swiper--slide my-swiper--slide__skills">
+                <div class="my-swiper--description">
+                    <p class="my-swiper--title">Front-end developer from Moscow, Russia</p>
+                    <p class="my-swiper--subtitle">The place where I grow with great inspiration</p>
+                    <a class="my-swiper--button" href="#skills">What i do</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="main-header--navigation navigation js-navigation">
+        <div class="container">
+            <div class="navigation-mobile">
+                <h2 class="navigation--title">Menu</h2>
+                <button class="navigation--burger js-navigation--burger" type="button">Menu</button>
+            </div>
+
+            <div class="navigation--mobile-block js-navigation--mobile-block">
+                <ul class="navigation--list">
+                    <li class="navigation--item navigation--item__current">
+                        <a href="#home">Home</a>
+                    </li>
+
+                    <li class="navigation--item">
+                        <a href="#about">About me</a>
+                    </li>
+
+                    <li class="navigation--item">
+                        <a href="#skills">Skills</a>
+                    </li>
+
+                    <li class="navigation--item">
+                        <a href="#experience">Experience</a>
+                    </li>
+
+                    <li class="navigation--item">
+                        <a href="#education">Education</a>
+                    </li>
+
+                    <li class="navigation--item">
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+
+                    <li class="navigation--item">
+                        <a href="#contacts">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+</header>
+
+<main>
+    <h1 class="visually-hidden">Портфолио. Бетоков Барасби</h1>
+
+    <section class="about" id="about">
+        <div class="about--container">
+            <div class="about--block">
+                <div class="about--column">
+                    <div class="about--picture">
+                        <picture>
+                            <source srcset="img/me.webp" media="(min-width: 600px)" type="image/webp">
+                            <source srcset="img/me.jpg" media="(min-width: 600px)">
+                            <source srcset="img/me-mobile.webp" type="image/webp">
+                            <img src="img/me-mobile.jpg" width="604" height="339" alt="Бетоков Барасби">
+                        </picture>
+                    </div>
+                </div>
+
+                <div class="about--column">
+                    <h2 class="about--title title">About me</h2>
+                    <h3 class="about--subtitle">
+                        <span>Betokov Barasbi</span>
+                        <span>Front-end developer</span>
+                    </h3>
+
+                    <div class="about--description">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <p>Привет, я front-end developer. Моя специализация: разработка клиентской части в
+                                        веб-приложениях. Ищу компанию с дружным коллективом профессионалов, где смогу
+                                        перенять хорошие навыки front-end разработчика и стать частью хорошей компании
+                                        для дальнейшего ее развития.</p>
+
+                                    <p>Начал свое обучение веб-разработке в 2017 году. При разработке веб-приложений
+                                        применяю современные технологии. Мне нравится решать нестандартные задачи, для
+                                        совершенствования своих умений.</p>
+
+                                    <p>Верстаю сайты: семантично, кроссбраузерно, валидно, оптимизированно, резиново,
+                                        адаптивно, доступно.</p>
+                                </div>
+                            </div>
+                            <div class="swiper-scrollbar"></div>
+                        </div>
+                    </div>
+
+                    <a class="about--link button" href="CV.docx" download>Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="skills--title title">My expertise</h2>
+
+            <p class="skills--description">
+                Список применяемых технологий и примерный уровень владения ими.
+            </p>
+
+            <button class="skills--button js-skills--button" type="button">Skills</button>
+
+            <ul class="skills--items skills-list">
+                <li class="skills-list--item">
+                    <div class="skills-list--skill skills-list--skill__recensere"></div>
+                    <h3 class="skills-list--title">Photoshop / Sketch / Figma</h3>
+                    <p class="skills-list--description">Нарезка графики. Вертска макетов из PSD и не только.</p>
+                </li>
+
+                <li class="skills-list--item">
+                    <div class="skills-list--skill skills-list--skill__html"></div>
+                    <h3>Html5</h3>
+                    <p class="skills-list--description">Семантика. Flow-content. Sectioning content. Paplable
+                        content</p>
+                </li>
+
+                <li class="skills-list--item">
+                    <div class="skills-list--skill skills-list--skill__css"></div>
+                    <h3>Css3</h3>
+                    <p class="skills-list--description">Flexbox. Медиазапросы. Переходы. UI.</p>
+                </li>
+
+                <li class="skills-list--item">
+                    <div class="skills-list--skill skills-list--skill__preprocess"></div>
+                    <h3>Less / SCSS</h3>
+                    <p class="skills-list--description">Миксимы. Переменные. Import.</p>
+                </li>
+
+                <li class="skills-list--item">
+                    <div class="skills-list--skill skills-list--skill__js"></div>
+                    <h3>JavaScript</h3>
+                    <p class="skills-list--description">ES5/ES6. AJAX</p>
+                </li>
+
+                <li class="skills-list--item">
+                    <div class="skills-list--skill skills-list--skill__vue"></div>
+                    <h3>Vue.js</h3>
+                    <p class="skills-list--description">Vue-router. Vuex. Vue-resource</p>
+                </li>
+
+                <li class="skills-list--item">
+                    <div class="skills-list--skill skills-list--skill__jquery"></div>
+                    <h3>Jquery</h3>
+                    <p class="skills-list--description">Табы, аккордеон, модальные окна, tooltip.</p>
+                </li>
+
+                <li class="skills-list--item">
+                    <div class="skills-list--skill skills-list--skill__build"></div>
+                    <h3>Gulp / Webpack</h3>
+                    <p class="skills-list--description">Плагины для оптимизации графики, минификация кода, компиляции
+                        препроцессоров, postCss, live reload.</p>
+                </li>
+
+                <li class="skills-list--item">
+                    <div class="skills-list--skill skills-list--skill__backend"></div>
+                    <h3>Php / MySql</h3>
+                    <p class="skills-list--description">Работа с формами. Вывод, добавление и изменение информации в
+                        базе данных.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="experience" id="experience">
+        <div class="container">
+            <h2 class="experience--title title">Work Experience</h2>
+            <p class="experience--description">A list of places of work at which I worked. <br> Responsibilities and a
+                stack of technologies that I used in my work.</p>
+
+            <div class="experience--block experience-list">
+                <div class="experience-list--column">
+                    <div class="experience-list-date">
+                        <time class="experience-list-date--begin" datetime="2017-08-01">Aug,2017</time>
+                        <time class="experience-list-date--end" datetime="2018-07-01">July 2018</time>
+                    </div>
+                </div>
+
+                <div class="experience-list--column">
+                    <div class="experience-list-workplace">
+                        <h3>Lantana Studio</h3>
+                        <h4>Html-верстальщик</h4>
+                        <p>Верстка многостраничных сайтов, лендингов. <br> <b>Стек технологий:</b> HTML5, CSS3, JQUERY,
+                            PHP, GIT.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <div class="container">
+            <h2 class="education--title title">Education & Diplomas</h2>
+            <p class="education--description">List of completed universities.</p>
+
+            <div class="experience--block experience-list">
+                <div class="experience-list--column">
+                    <div class="experience-list-date">
+                        <time class="experience-list-date--begin experience-list-date--begin__education"
+                              datetime="2017-08-01">August, 2016
+                        </time>
+                    </div>
+                </div>
+
+                <div class="experience-list--column">
+                    <div class="experience-list-workplace experience-list-workplace__education">
+                        <h3>Кабардино-Барлакрский Государственный Университет</h3>
+                        <h4>Информатика и вычислительная техника</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experience--block experience-list">
+                <div class="experience-list--column">
+                    <div class="experience-list-date">
+                        <time class="experience-list-date--begin experience-list-date--begin__education"
+                              datetime="2017-08-01">Aug, 2019
+                        </time>
+                    </div>
+                </div>
+
+                <div class="experience-list--column">
+                    <div class="experience-list-workplace experience-list-workplace__education">
+                        <h3>МГТУ "СТАНКИН"</h3>
+                        <h4>Информатика и вычислительная техника</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio--top">
+            <div class="container">
+                <h2 class="portfolio--title title">Portfolio</h2>
+
+                <p class="portfolio--description">Разработанные web-приложения с описанием примененных технологий.</p>
+
+                <div class="portfolioFilter">
+                    <ul class="portfolio--tabs">
+                        <li>
+                            <a class="active" href="#" data-filter="*">All</a>
+                        </li>
+
+                        <li>
+                            <a href="#" data-filter=".siteTemplate">Site Template</a>
+                        </li>
+
+                        <li>
+                            <a href="#" data-filter=".vue">Vue</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio--bottom">
+            <ul class="portfolioContainer projects-list">
+                <li class="siteTemplate isotop-item projects-item">
+                    <a href="projects/project1/">
+                        <picture>
+                            <source srcset="img/projects/project1.webp" type="image/webp">
+                            <img src="img/projects/project1.jpg" alt="Портфолио №1" width="1280" height="720">
+                        </picture>
+                    </a>
+                </li>
+                <li class="siteTemplate isotop-item projects-item">
+                    <a href="projects/project2/">
+                        <picture>
+                            <source srcset="img/projects/project2.webp" type="image/webp">
+                            <img src="img/projects/project2.jpg" alt="Турник - браусья, пресс 3 в 1" width="1280"
+                                 height="720">
+                        </picture>
+                    </a>
+                </li>
+                <li class="siteTemplate isotop-item projects-item">
+                    <a href="projects/project3/">
+                        <picture>
+                            <source srcset="img/projects/project3.webp" type="image/webp">
+                            <img src="img/projects/project3.jpg" alt="Ленома парфюмерия" width="1280" height="720">
+                        </picture>
+                    </a>
+                </li>
+                <li class="vue isotop-item projects-item">
+                    <a href="projects/project4/">
+                        <picture>
+                            <source srcset="img/projects/project4.webp" type="image/webp">
+                            <img src="img/projects/project4.jpg" alt="Портфолио №2" width="1280" height="720">
+                        </picture>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <h2 class="contacts--title title">Get in touch</h2>
+
+            <p class="contacts--description">Write me a message. I will reply soon!</p>
+
+            <div class="contacts--block">
+                <div class="contacts--column">
+                    <h3>Contacts details</h3>
+
+                    <ul class="contacts--list contacts-list">
+                        <li class="contacts-item contacts-item__pin">
+                            <span>Moscow, Russia</span>
+                        </li>
+
+                        <li class="contacts-item contacts-item__phone">
+                            <a href="tel:+79997988284">+7 (999) 798 - 82 - 84</a>
+                        </li>
+
+                        <li class="contacts-item contacts-item__mail">
+                            <a href="mailto:betokov93@mail.ru">betokov93@mail.ru</a>
+                        </li>
+
+                        <li class="contacts-item contacts-item__github">
+                            <a href="https://github.com/betokov">Github</a>
+                        </li>
+
+                        <li class="contacts-item contacts-item__skype">
+                            <span>betokov93</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="contacts--column">
+                    <h3>Shoot a message!</h3>
+
+                    <form method="post" class="contacts-form js-contacts-form">
+                        <label aria-label="Ваше имя">
+                            <input type="text" name="firstname" placeholder="Your name..." required>
+                        </label>
+
+                        <label aria-label="Ваш email">
+                            <input type="email" name="email" placeholder="Your email..." required>
+                        </label>
+
+                        <label aria-label="Ваше  сообщение">
+                            <textarea name="message" placeholder="Your message..." required></textarea>
+                        </label>
+
+                        <button class="contacts--button button" type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="modal-success">
+                <p>Спасибо за отпавленное письмо!</p>
+                <button class="modal-close" type="button" aria-label="Закрыть"></button>
+            </div>
+            <div class="modal-overlay">
+
+            </div>
+        </div>
+
+        <div class="contacts--map">
+            <span>
+                <picture>
+                    <source srcset="img/map.webp" type="image/webp">
+                    <img src="img/map.jpg" alt="Я нахожусь в г. Москва, рядом с метро Электозаводская" width="1903"
+                         height="300">
+                </picture>
+            </span>
+
+            <div id="map" class="my-map"></div>
+        </div>
+    </section>
+</main>
+
+<footer class="main-footer">
+    <div class="container">
+        <ul class="social-list">
+            <li class="social-item">
+                <a href="https://vk.com/id264570541" aria-label="Вконтакте" target="_blank" rel="noopener">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                         viewBox="0 0 112.196 112.196" style="enable-background:new 0 0 112.196 112.196;"
+                         xml:space="preserve" width="50" height="50">
+							<g>
+	<g class="icon-circle">
+		<circle cx="56" cy="56" r="56"/>
+	</g>
+                                <path class="icon-figure" d="M53.979,80.702h4.403c0,0,1.33-0.146,2.009-0.878
+		c0.625-0.672,0.605-1.934,0.605-1.934s-0.086-5.908,2.656-6.778c2.703-0.857,6.174,5.71,9.853,8.235
+		c2.782,1.911,4.896,1.492,4.896,1.492l9.837-0.137c0,0,5.146-0.317,2.706-4.363c-0.2-0.331-1.421-2.993-7.314-8.463
+		c-6.168-5.725-5.342-4.799,2.088-14.702c4.525-6.031,6.334-9.713,5.769-11.29c-0.539-1.502-3.867-1.105-3.867-1.105l-11.076,0.069
+		c0,0-0.821-0.112-1.43,0.252c-0.595,0.357-0.978,1.189-0.978,1.189s-1.753,4.667-4.091,8.636c-4.932,8.375-6.904,8.817-7.71,8.297
+		c-1.875-1.212-1.407-4.869-1.407-7.467c0-8.116,1.231-11.5-2.397-12.376c-1.204-0.291-2.09-0.483-5.169-0.514
+		c-3.952-0.041-7.297,0.012-9.191,0.94c-1.26,0.617-2.232,1.992-1.64,2.071c0.732,0.098,2.39,0.447,3.269,1.644
+		c1.135,1.544,1.095,5.012,1.095,5.012s0.652,9.554-1.523,10.741c-1.493,0.814-3.541-0.848-7.938-8.446
+		c-2.253-3.892-3.954-8.194-3.954-8.194s-0.328-0.804-0.913-1.234c-0.71-0.521-1.702-0.687-1.702-0.687l-10.525,0.069
+		c0,0-1.58,0.044-2.16,0.731c-0.516,0.611-0.041,1.875-0.041,1.875s8.24,19.278,17.57,28.993
+		C44.264,81.287,53.979,80.702,53.979,80.702L53.979,80.702z"/>
+</g>
+</svg>
+                </a>
+            </li>
+
+            <li class="social-item">
+                <a href="https://twitter.com/Barasbi1" aria-label="Твиттер" target="_blank" rel="noopener">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                         viewBox="0 0 112.197 112.197" style="enable-background:new 0 0 112.197 112.197;"
+                         xml:space="preserve">
+<g>
+	<circle class="icon-circle" cx="56.099" cy="56.098" r="56.098"/>
+    <g>
+		<path class="icon-figure" d="M90.461,40.316c-2.404,1.066-4.99,1.787-7.702,2.109c2.769-1.659,4.894-4.284,5.897-7.417
+			c-2.591,1.537-5.462,2.652-8.515,3.253c-2.446-2.605-5.931-4.233-9.79-4.233c-7.404,0-13.409,6.005-13.409,13.409
+			c0,1.051,0.119,2.074,0.349,3.056c-11.144-0.559-21.025-5.897-27.639-14.012c-1.154,1.98-1.816,4.285-1.816,6.742
+			c0,4.651,2.369,8.757,5.965,11.161c-2.197-0.069-4.266-0.672-6.073-1.679c-0.001,0.057-0.001,0.114-0.001,0.17
+			c0,6.497,4.624,11.916,10.757,13.147c-1.124,0.308-2.311,0.471-3.532,0.471c-0.866,0-1.705-0.083-2.523-0.239
+			c1.706,5.326,6.657,9.203,12.526,9.312c-4.59,3.597-10.371,5.74-16.655,5.74c-1.08,0-2.15-0.063-3.197-0.188
+			c5.931,3.806,12.981,6.025,20.553,6.025c24.664,0,38.152-20.432,38.152-38.153c0-0.581-0.013-1.16-0.039-1.734
+			C86.391,45.366,88.664,43.005,90.461,40.316L90.461,40.316z"/>
+	</g>
+</g>
+						</svg>
+                </a>
+            </li>
+
+            <li class="social-item">
+                <a href="https://www.facebook.com/barasbi.betokov07" aria-label="Фейсбук" target="_blank"
+                   rel="noopener">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                         viewBox="0 0 112.196 112.196" style="enable-background:new 0 0 112.196 112.196;"
+                         xml:space="preserve" width="50" height="50">
+<g>
+	<circle class="icon-circle" cx="56.098" cy="56.098" r="56.098"/>
+    <path class="icon-figure" d="M70.201,58.294h-10.01v36.672H45.025V58.294h-7.213V45.406h7.213v-8.34
+		c0-5.964,2.833-15.303,15.301-15.303L71.56,21.81v12.51h-8.151c-1.337,0-3.217,0.668-3.217,3.513v7.585h11.334L70.201,58.294z"/>
+</g>
+						</svg>
+                </a>
+            </li>
+
+            <li class="social-item">
+                <a href="https://www.facebook.com/barasbi.betokov07" aria-label="Гугл плюс" target="_blank"
+                   rel="noopener">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                         viewBox="0 0 112.196 112.196" style="enable-background:new 0 0 112.196 112.196;"
+                         xml:space="preserve" width="50" height="50">
+<g>
+	<g>
+		<circle class="icon-circle" cx="56.098" cy="56.097" r="56.098"/>
+	</g>
+    <g>
+		<path class="icon-figure" d="M19.531,58.608c-0.199,9.652,6.449,18.863,15.594,21.867c8.614,2.894,19.205,0.729,24.937-6.648
+			c4.185-5.169,5.136-12.06,4.683-18.498c-7.377-0.066-14.754-0.044-22.12-0.033c-0.012,2.628,0,5.246,0.011,7.874
+			c4.417,0.122,8.835,0.066,13.252,0.155c-1.115,3.821-3.655,7.377-7.51,8.757c-7.443,3.28-16.94-1.005-19.282-8.813
+			c-2.827-7.477,1.801-16.5,9.442-18.675c4.738-1.667,9.619,0.21,13.673,2.673c2.054-1.922,3.976-3.976,5.864-6.052
+			c-4.606-3.854-10.525-6.217-16.61-5.698C29.526,35.659,19.078,46.681,19.531,58.608z"/>
+        <path class="icon-figure" d="M79.102,48.668c-0.022,2.198-0.045,4.407-0.056,6.604c-2.209,0.022-4.406,0.033-6.604,0.044
+			c0,2.198,0,4.384,0,6.582c2.198,0.011,4.407,0.022,6.604,0.045c0.022,2.198,0.022,4.395,0.044,6.604c2.187,0,4.385-0.011,6.582,0
+			c0.012-2.209,0.022-4.406,0.045-6.615c2.197-0.011,4.406-0.022,6.604-0.033c0-2.198,0-4.384,0-6.582
+			c-2.197-0.011-4.406-0.022-6.604-0.044c-0.012-2.198-0.033-4.407-0.045-6.604C83.475,48.668,81.288,48.668,79.102,48.668z"/>
+        </g>
+        </g>
+						</svg>
+                </a>
+            </li>
+
+            <li class="social-item">
+                <a href="https://www.instagram.com/first_name07" aria-label="Инстаграм" target="_blank" rel="noopener">
+                    <svg height="50px" viewBox="0 0 512 512" width="50" xmlns="http://www.w3.org/2000/svg"
+                         class="icon-circle">
+                        <path class="icon-figure"
+                              d="m305 256c0 27.0625-21.9375 49-49 49s-49-21.9375-49-49 21.9375-49 49-49 49 21.9375 49 49zm0 0"/>
+                        <path fill="#ffffff"
+                              d="m370.59375 169.304688c-2.355469-6.382813-6.113281-12.160157-10.996094-16.902344-4.742187-4.882813-10.515625-8.640625-16.902344-10.996094-5.179687-2.011719-12.960937-4.40625-27.292968-5.058594-15.503906-.707031-20.152344-.859375-59.402344-.859375-39.253906 0-43.902344.148438-59.402344.855469-14.332031.65625-22.117187 3.050781-27.292968 5.0625-6.386719 2.355469-12.164063 6.113281-16.902344 10.996094-4.882813 4.742187-8.640625 10.515625-11 16.902344-2.011719 5.179687-4.40625 12.964843-5.058594 27.296874-.707031 15.5-.859375 20.148438-.859375 59.402344 0 39.25.152344 43.898438.859375 59.402344.652344 14.332031 3.046875 22.113281 5.058594 27.292969 2.359375 6.386719 6.113281 12.160156 10.996094 16.902343 4.742187 4.882813 10.515624 8.640626 16.902343 10.996094 5.179688 2.015625 12.964844 4.410156 27.296875 5.0625 15.5.707032 20.144532.855469 59.398438.855469 39.257812 0 43.90625-.148437 59.402344-.855469 14.332031-.652344 22.117187-3.046875 27.296874-5.0625 12.820313-4.945312 22.953126-15.078125 27.898438-27.898437 2.011719-5.179688 4.40625-12.960938 5.0625-27.292969.707031-15.503906.855469-20.152344.855469-59.402344 0-39.253906-.148438-43.902344-.855469-59.402344-.652344-14.332031-3.046875-22.117187-5.0625-27.296874zm-114.59375 162.179687c-41.691406 0-75.488281-33.792969-75.488281-75.484375s33.796875-75.484375 75.488281-75.484375c41.6875 0 75.484375 33.792969 75.484375 75.484375s-33.796875 75.484375-75.484375 75.484375zm78.46875-136.3125c-9.742188 0-17.640625-7.898437-17.640625-17.640625s7.898437-17.640625 17.640625-17.640625 17.640625 7.898437 17.640625 17.640625c-.003906 9.742188-7.898437 17.640625-17.640625 17.640625zm0 0"/>
+                        <path d="m256 0c-141.363281 0-256 114.636719-256 256s114.636719 256 256 256 256-114.636719 256-256-114.636719-256-256-256zm146.113281 316.605469c-.710937 15.648437-3.199219 26.332031-6.832031 35.683593-7.636719 19.746094-23.246094 35.355469-42.992188 42.992188-9.347656 3.632812-20.035156 6.117188-35.679687 6.832031-15.675781.714844-20.683594.886719-60.605469.886719-39.925781 0-44.929687-.171875-60.609375-.886719-15.644531-.714843-26.332031-3.199219-35.679687-6.832031-9.8125-3.691406-18.695313-9.476562-26.039063-16.957031-7.476562-7.339844-13.261719-16.226563-16.953125-26.035157-3.632812-9.347656-6.121094-20.035156-6.832031-35.679687-.722656-15.679687-.890625-20.6875-.890625-60.609375s.167969-44.929688.886719-60.605469c.710937-15.648437 3.195312-26.332031 6.828125-35.683593 3.691406-9.808594 9.480468-18.695313 16.960937-26.035157 7.339844-7.480469 16.226563-13.265625 26.035157-16.957031 9.351562-3.632812 20.035156-6.117188 35.683593-6.832031 15.675781-.714844 20.683594-.886719 60.605469-.886719s44.929688.171875 60.605469.890625c15.648437.710937 26.332031 3.195313 35.683593 6.824219 9.808594 3.691406 18.695313 9.480468 26.039063 16.960937 7.476563 7.34375 13.265625 16.226563 16.953125 26.035157 3.636719 9.351562 6.121094 20.035156 6.835938 35.683593.714843 15.675781.882812 20.683594.882812 60.605469s-.167969 44.929688-.886719 60.605469zm0 0"/>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+
+        <a href="#home" class="main-footer--button" aria-label="Проскрелить вверх">
+            <svg version="1.1" width="42" height="42" fill="#302931" xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 455 455" xml:space="preserve">
+<path fill="#817a82" d="M0,0v455h455V0H0z M334.411,296.683L227.5,190.12L120.589,296.683l-21.179-21.248L227.5,147.763l128.089,127.672
+	L334.411,296.683z"/>
+				</svg>
+        </a>
+    </div>
+</footer>
+
+<!-- Scripts -->
+<script src="js/libs-min.js"></script>
+<script class="new-map"></script>
+<script src="js/main-min.js"></script>
+</body>
+</html>

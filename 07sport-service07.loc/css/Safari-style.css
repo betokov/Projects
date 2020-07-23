@@ -1,0 +1,22 @@
+body:last-child:not(:root:root) .style {
+
+	 /*------------------------TOP-MENU-------------------------------*/
+	 
+ #top_menu .search input[type="submit"] {
+   
+	
+   }
+  
+  #top_menu .search  input[type="search"]{
+	padding: 0 25px 1px 15px;
+	
+}
+ 
+  /*------------------------LEFT-------------------------------*/
+  #left input[type="button"]{
+	
+	font-size:12px;
+	padding:6px;
+	
+}
+}

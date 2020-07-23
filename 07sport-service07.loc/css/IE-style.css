@@ -1,0 +1,23 @@
+
+
+#top_menu ul{
+	font-family: Times New Roman;
+}
+#top_menu a{
+	font-size:16px;
+	padding:0 5px;
+}
+
+
+#top_menu .search  input[type="search"]{
+	margin-left:10px;
+
+
+}
+
+
+ #top_menu .search input[type="submit"] {
+  
+	left:200px;
+   }
+  

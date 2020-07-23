@@ -1,0 +1,146 @@
+.contacts{
+	padding: 70px 0;
+	font-family: @a;
+	font-size: 20px;
+	background: #303030;
+	display: none;
+	
+	h1{
+		font-size: 22px;
+		background: gray;
+		color:#fff;
+		padding: 7px 0 7px 20px;
+		max-width: 350px;
+		position: relative;
+		text-transform: uppercase;
+		margin-bottom: 40px;
+		&:after{
+			content: "";
+			transform: rotate(20deg);
+			position: absolute;
+			background: #303030FF;
+			width: 15px;
+			height: 39px;
+			right: -9px;
+			top: 0px;
+
+		}
+	}
+}
+
+.contact-block{
+
+	p{
+		margin: 55px 0;
+		color: #fff;
+
+		span{
+			padding-left: 55px;
+		}
+	}
+
+	.phone{
+		position: relative;
+		&:before{
+			content: "";
+			background: url("../images/phone.png") no-repeat ;
+			width: 50px;
+			height: 50px;
+			display: inline-block;
+			position: absolute;
+			top: -15px;
+			left: 0;
+		}
+	}
+
+
+	.mail{
+		position: relative;
+		&:before{
+			content: "";
+			background: url("../images/email.png") no-repeat ;
+			width: 50px;
+			height: 50px;
+			display: inline-block;
+			position: absolute;
+			top: -15px;
+			left: 0;
+		}
+	}
+
+	.skype{
+		position: relative;
+		&:before{
+			content: "";
+			background: url("../images/skype.png") no-repeat ;
+			width: 50px;
+			height: 50px;
+			display: inline-block;
+			position: absolute;
+			top: -15px;
+			left: 0;
+		}
+	}
+
+
+	
+}
+
+
+.message-block{
+	@media only screen and (min-width : 992px) {
+	padding-left: 100px;
+	}
+}
+
+
+.form-box{
+	max-width: 300px;
+	font-weight: bold;
+	span{
+		width: 100%;
+		height: 3px;
+		background: gray;
+		display: block;
+		border-radius: 10px;
+		margin: 20px 0;
+	}
+
+	label{
+		color:#fff;
+		text-transform: uppercase;
+		margin-bottom: 10px;
+	}
+
+	input, textarea, label{
+		display: block;
+		border-radius: 5px;
+		outline: none;
+		border: none;
+	}
+	textarea{
+		height: 150px;
+		width: 100%;
+		margin-bottom: 15px;
+		padding: 7px;
+		resize:none;
+		overflow: auto;
+	}
+	input{
+		width: 100%;
+		margin-bottom: 15px;
+		padding: 7px;
+	}
+
+	input[type="submit"]{
+		width: 150px;
+		height: 50px;
+		margin: 0 auto;
+		background: red;
+		color: #fff;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 18px;
+		cursor:pointer;
+	}
+}

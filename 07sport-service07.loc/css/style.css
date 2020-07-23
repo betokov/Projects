@@ -1,0 +1,481 @@
+/*------------------------CSS RESET-------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*------------------------FONTS-------------------------------*/
+
+@font-face {
+    font-family: Airport; /* Имя шрифта */
+    src: url(../fonts/Airport.otf); /* Путь к файлу со шрифтом */
+   }
+  @font-face {
+    font-family: OpenSans; /* Имя шрифта */
+    src: url(../fonts/OpenSans.ttf); /* Путь к файлу со шрифтом */
+   }
+   
+   
+
+/*------------------------INDEX-------------------------------*/
+   
+html, body{
+	margin:0;
+	padding:0;
+	text-align:center;
+	background-color:#e4e8ea !important;
+
+	
+}
+
+#container{
+	min-width:1000px;
+	width:1000px;
+	text-align:left;
+	word-wrap:break-word;
+	margin:0 auto;
+	position:relative;
+}
+
+/*------------------------HEADER-------------------------------*/
+#header {
+	margin-top:10px;
+`   position:relative;
+    height:150px;
+	background:url(../images/header2.png);
+	}
+	
+#header .sport img{
+	width:320px;
+	height:80px;
+	margin-top:40px;
+	margin-left:10px;
+	
+}
+
+#header .smalcart{
+border: 1px solid rgba(0,0,0,.5);
+border-radius: 4px;
+width: 250px;
+position:absolute;
+right:5px;
+top:40px;
+background:white;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+color:#65697d;
+height:100px;
+}
+
+
+#header .smalcart img{
+width:70px;
+float:left;
+}
+
+#header .smalcart p{
+	margin-left:60px;
+}
+#header .smalcart .one{
+	padding:10px;
+	
+}
+#header .smalcart .two{
+	margin-left:100px;
+	margin-top:-5px;
+	margin-bottom:20px;
+	line-height:18px;
+	
+}
+#header .smalcart a{
+	text-decoration:none;
+	background:#296cb3;
+	border:1px solid gray;
+	font-size:18px;
+	color:white;
+	padding:3px;
+	border-radius:3px;
+	line-height:40px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+#header .smalcart a:hover{
+	
+		background-color: #3182ce;
+}
+
+#header .fixed{
+	position: fixed;
+	top:30px;
+	right:50px;
+	z-index: 200;
+}
+
+
+/*------------------------TOP_MENU-------------------------------*/
+#top_menu a{
+	text-decoration:none;
+	color:white;
+	font-size:25px;
+	line-height:48px;
+display:block;
+padding:0 10px;
+}
+
+#top_menu a:hover{
+	background-color: #3182ce;
+}
+
+#top_menu ul li{
+float:left;
+}
+#top_menu ul{
+	margin-top:10px;
+	background-color: #296cb3;
+	border-radius:3px;
+	height:50px;
+	width:1000px;
+	font-family: Airport;
+
+}
+
+#top_menu .search{
+	position:absolute;
+	right:0px;
+	top:160px;
+	height:48px;
+	width:280px;
+	background-color:#3182ce;
+}
+
+#top_menu .search  input[type="search"]{
+ border: none; /* Убираем рамку */
+    outline: none; /* Убираем свечение в Chrome и Safari */
+    -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+	border-radius:5px;
+	width:220px;
+	height:25px;
+	background:#294b6f;
+	margin-top:12px;
+	margin-left:30px;
+	color:#89abcf;
+	font-weight:bold;
+	padding: 0 20px 1px 15px;
+	
+	
+}
+
+
+ #top_menu .search input[type="submit"] {
+    width: 20px; /* Ширина кнопки */
+    height: 20px; /* Высота кнопки */
+    border: none; /* Убираем рамку */
+    background: url(../images/search.png) no-repeat 50% 50%; /* Параметры фона */
+	position:absolute;
+	    right: 34px;
+    top: 14px;
+	/*outline: 1px solid red;*/
+   }
+
+
+
+  
+ /*------------------------LEFT-------------------------------*/
+#left{
+	/*outline: 1px solid red;*/
+	width:237px;
+	padding: 40px 0;
+	font-family: "OpenSans";
+	float:left;
+
+}
+#left a{
+	text-decoration:none;
+	}
+#left input[type="button"]{
+	background-color:#296cb3;
+	color           :white;
+	font-size       :12px;
+	font-weight     :bolder;
+	padding         :10px;
+	width           :230px;
+	cursor          :pointer;
+	border          :none;
+	margin-bottom   :20px;
+	margin-left: 4px;
+}
+#left input[type="button"]:hover{
+	background-color: #3182ce;
+}
+#left .up{
+	background-color:#296cb3;
+	color:#fff;
+	font-size:20px;
+	padding:5px 0 5px 30px;
+	border-radius: 5px 5px 0 0 ;
+
+}
+#left .down1, .down2{
+	background: #e3e3e3;
+	outline: 1px solid gray;
+	margin-bottom:50px;
+
+}
+#left .down1 li:hover, .down2 li:hover{
+background-color:#3182ce;
+
+	}
+#left .down2 .down2-first{
+	background:url("../images/down.png") 100% 0;
+	background-size: cover;
+	cursor:pointer;
+	color:black;
+
+	}
+#left .down2 .down2-first:hover, .down2 .down2-first2:hover{
+	color:black;
+}
+
+#left .down_right{
+	background:#49505a;	
+	color: #eeeeee;
+	display:none;
+}
+
+#left .down_right li a, .down_right2  li a{
+color:white;
+ box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset, 0 1px 1px rgba(0, 0, 0, 0.5);
+	}
+	#left .down_right li a:hover, .down_right2 li a:hover{
+background-color: #3182ce;
+
+	}
+
+#left .down1 a, .down2 a{
+
+	text-decoration: none;
+	color:#000; 
+	font-size:14px;
+	/*outline: 1px solid blue;*/
+	display: block;
+	line-height: 30px;
+	padding: 10px;
+	}
+	#left .down1 a:hover, .down2 a:hover{
+color:white;
+	}
+
+#left .down1 li, .down2 li{
+border-bottom:1px solid grey;
+}
+#left .down1 li:last-child, .down2 li:last-child{
+border-bottom:none;
+}
+#left .last{
+	font-size: 13px;
+}
+#left .active{
+	background: url("../images/up.png") no-repeat top left 78% !important;;
+}
+
+
+ /*------------------------CONTENT-------------------------------*/
+ #content{
+	padding-top:39px;
+	padding-bottom:50px;
+	margin-left:240px;
+	font-family: "OpenSans";
+	/*outline:1px solid black;*/
+}
+ /*------------------------INDEX-------------------------------*/
+
+#my_slider {
+	border:15px solid #fff;
+	border-radius: 5px;
+    width:500px;
+    height:334px;
+    overflow: hidden;
+    position:relative;
+    list-style: none outside none;
+    padding:0;
+    margin:0;
+    margin-left: 100px;
+}
+#my_slider li {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display:none;
+}
+#my_slider li:first-child {
+    display:block;
+}
+#counter {
+	margin:0 auto;
+    text-align:right;
+    font-size:16px;
+    width:500px;
+}
+.index{
+	background: #fff;
+	margin-left: 20px;
+	margin-top:50px;
+	border-radius: 5px;
+	/*outline: 1px solid red;*/
+}
+.index .index-h1{
+	background: #296cb3;
+	letter-spacing: 1px;
+	font-family: "TIMES NEW ROMAN";
+	color:#fff;
+	font-size:23px;
+	padding:8px 0 8px 25px;
+	border-radius: 5px 5px 0 0;
+
+}
+.index .index-p{
+	padding: 40px 40px 0 40px;
+	color:black;
+	font-size:15px;
+	line-height: 25px;
+}
+.index .top_menu-block{
+
+	padding:0px 20px 20px 44px;
+
+}
+.index .menu{
+	padding:0px 33px;
+	text-align: center;
+
+}
+.index .menu a:hover{
+	color:red;
+	text-decoration:none;
+	}
+.index .menu img{
+width: 132px;
+height:130px;
+}
+.index .menu .menu-one{
+/*outline: 1px solid red;*/
+float:left;
+padding-top:58px;
+	}
+	.index .menu .menu-two{
+/*outline: 1px solid red;*/
+float:left;
+padding-top:58px;
+padding-left: 6px;
+	}
+	.index .menu .menu-three{
+/*outline: 1px solid red;*/
+float:left;
+padding-top:58px;
+padding-left: 8px;
+	}
+	.index .menu .menu-four{
+/*outline: 1px solid red;*/
+float:left;
+	}
+	.index .menu .menu-five{
+/*outline: 1px solid red;*/
+
+	}
+.slider-content{
+margin: 0 auto;
+width:700px;
+/*outline: 1px solid red;*/
+height:500px;
+}
+.view{
+	position: relative;
+	border:15px solid white;
+	border-radius: 10px; 
+}
+	.slider-left{
+		position: absolute;
+		top:45%;
+		left:5%;
+		width: 21px;
+		height: 48px;
+		background: url("../images/db-left.png") no-repeat;
+	}
+		.slider-right{
+			position: absolute;
+			right:5%;
+			top:45%;
+			width: 21px;
+			height: 48px;
+			
+		background: url("../images/db-right.png") no-repeat;
+	}
+ /*------------------------FOOTER-------------------------------*/
+.footer{
+	background: #296cb3;
+	height:100px;
+	color:white;
+	font-size: 25px;
+	font-family: "TIMES NEW ROMAN";
+	letter-spacing: 1px;
+	padding-top: 25px;
+	text-align:center;
+}
+
+.footer .soc-seti{
+	float:left;
+	/*outline: 1px solid red;*/
+	padding-left: 70px;
+}
+.footer .text{
+	/*outline: 1px solid red;*/
+	float:left;
+	padding-left: 22px;
+	}
+
+.footer .holog{
+float: left;
+}

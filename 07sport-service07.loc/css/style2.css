@@ -1,0 +1,73 @@
+/*-----------------------Trainers_run-----------------------------------*/
+.trainers_run{
+padding:0 20px;
+/*outline: 1px solid red;*/
+}
+.xleb{
+	font-size: 15px;
+	font-weight: bold;
+	padding-left: 19px;
+}
+.xleb span{
+	color:blue;
+	}
+.maxfit{
+
+/*outline: 1px solid red;*/
+padding:15px;
+
+}
+
+
+.name-db{
+	color: blue;
+    font-weight: bold;
+    padding-right: 10px;
+    text-align: left;
+}
+.img-box{
+	height: 200px;
+	width: 220px;
+	padding:20px;
+	
+}
+
+.img-box img{
+	width: 100%;
+	height:auto;
+
+}
+
+.price-b{
+	float:left;
+	/*outline: 1px solid red;*/
+	margin-top:15px;
+
+}
+.price-b span{
+	font-size:16px;
+	font-weight: bold;
+
+}
+.add{
+    /*outline: 1px solid red;*/
+    width: 120px;
+    height: 52px;
+    float: left;
+    margin-left: 3px;
+    display: 
+}
+.remove{
+    /*outline: 1px solid red;*/
+    width: 120px;
+    height: 52px;
+    float: left;
+    margin-left: 3px;
+    border:1px solid red;
+    display:none;
+}
+h3{
+	font-size: 20px !important;
+    font-weight: bold !important;
+}
+

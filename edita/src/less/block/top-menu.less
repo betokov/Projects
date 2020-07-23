@@ -1,0 +1,104 @@
+.top-menu {
+	.reset-list ();
+
+	@media (max-width: 768px) {
+		background-color: #303066;
+		background-image: linear-gradient(to right, #172238 0%, #395585 50%, #172238 100%);
+
+		width: 260px;
+		margin: 0 auto;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	@media (min-width : 768px) {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	@media (min-width : 1200px) {
+		justify-content: flex-start;
+		width: 905px;
+	}
+}
+
+.top-menu--item {
+	padding: 15px 0;
+
+	@media (min-width : 992px) {
+		padding: 22px 0;
+	}
+
+	@media (min-width : 1200px) {
+		margin-right: 40px;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}
+
+.top-menu--link {
+	color: #ffffff;
+
+	padding-left: 32px;
+
+	position: relative;
+	display: block;
+
+	&::before {
+		content: "";
+
+		position: absolute;
+		left: 0;
+		top: -7px;
+
+		background-position: 0 0;
+		background-repeat: no-repeat;
+	}
+}
+
+.top-menu--link__fura {
+	&::before {
+		background-image: url("../img/fura.png");
+
+		width: 24px;
+		height: 24px;
+	}
+}
+
+.top-menu--link__wallet {
+	&::before {
+		background-image: url("../img/wallet.png");
+
+		width: 22px;
+		height: 22px;
+	}
+}
+
+.top-menu--link__testimonials {
+	&::before {
+		background-image: url("../img/testimonials.png");
+
+		width: 24px;
+		height: 24px;
+	}
+}
+
+.top-menu--link__questions {
+	&::before {
+		background-image: url("../img/questions.png");
+
+		width: 21px;
+		height: 21px;
+	}
+}
+
+.top-menu--link__email {
+	&::before {
+		background-image: url("../img/email.png");
+
+		width: 24px;
+		height: 24px;
+	}
+}

@@ -1,0 +1,42 @@
+.breadcrumb-list {
+	.reset-list ();
+
+	display: flex;
+}
+
+
+.breadcrumb--item{
+	position: relative;
+
+	&::after {
+		content: ". .";
+
+		position: absolute;
+		top: -3px;
+		right: 5px;
+	}
+
+	&:last-child {
+		&::after {
+			display: none;
+		}
+	}
+
+	&:last-child .breadcrumb--link{
+		margin-right: 0px;
+		padding-right: 0px;
+	}
+}
+
+.breadcrumb--link {
+	color: #ffffff;
+	opacity: 0.95;
+
+	margin-right: 10px;
+	padding-right: 10px;
+}
+
+.breadcrumb--link[href] {
+	text-decoration: underline;
+}
+

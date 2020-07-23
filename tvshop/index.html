@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>TvShop</title>
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<!-- HEADER -->
+	<div class="header">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-6">
+					<a href="/" class="logo"><img src="img/TV_Shop_Logo2.png" alt="logo"></a>
+				</div>
+
+				<div class="col-md-6 header_right">
+					<div class="header-right-block">
+						<form action="" class="search">
+							<input type="text" placeholder="Поиск..." class="search_input">
+							<button class="search_button">
+								<img src="img/glass.svg" alt="glass">
+							</button>
+						</form>
+						<div class="cart js-cart">
+							<img src="img/cart.svg" alt="cart">
+							<div class="cart_nav js-cart_nav">0</div>
+						</div>
+					</div>
+				</div>
+
+			</div><!-- END ROW -->
+		</div><!-- END CONTAINER -->
+	</div><!-- END HEADER -->
+
+	<hr>
+
+	<!-- GOODS -->
+	<div class="goods">
+		<div class="container">
+			<div class="row js-goods_block align-items-center">
+
+			</div><!-- END ROW -->
+		</div><!-- END CONTAINER -->
+	</div><!-- END GOODS -->
+
+	<!-- PAGINATION -->
+	<div class="pagination">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-12">
+					<div class="pagination_list  js-pagination-list">
+
+					</div>
+
+				</div>
+			</div><!-- END ROW -->
+		</div><!-- END CONTAINER -->
+	</div><!-- END PAGINATION -->
+
+
+	<!-- FOOTER -->
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-12">
+					<p>Copyright &copy; 2019 - TvShop</p>
+				</div>
+
+			</div><!-- END ROW -->
+		</div><!-- END CONTAINER -->
+	</div><!-- END FOOTER -->
+
+
+	<!-- CART_GOODS -->
+	<div class="cart-goods js-cart-goods">
+
+			<h2>Корзина</h2>
+			<p>Общая сумма <span>0</span> руб</p>
+
+			<div class="cart-goods_block js-cart-goods_block">
+						<h1>Ваша корзина пока пуста</h1>
+			</div>
+
+			<button class="btn">Оформить заказ</button>
+			<img src="img/close.svg" class="close js-close" alt="close">
+
+	</div><!-- END CART_GOODS -->
+
+
+	<div class="black-back"></div>
+
+	<script src="js/common.js"></script>
+
+</body>
+</html>
