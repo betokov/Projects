@@ -1,0 +1,70 @@
+//- DELIVERY
+section.delivery
+	h1.main-title Доставка
+	
+	p Рыбий жир продаётся в разных формах. Натуральная жидкая форма, синтетическая и концентрат (рыбий жир в капсулах). Натуральный жидкий рыбий жир является безопасным, лучше всего усваивается организмом. Именно такой высококачественный продукт в виде масла из печени дикой арктической трески предлагает Mermaids.
+
+	ul.delivery-list
+		li
+			h2 Доставка по Москве курьером
+			span #[img(src="img/shipping-img-1.png" alt="Скутер")]
+
+		li
+			h2 Доставка по России, почтой РФ
+			span #[img(src="img/shipping-img-2.png" alt="Коробка")]
+
+		li
+			h2 Курьерская служба доставки СДЭК
+			span #[img(src="img/shipping-img-3.png" alt="Человек доржит коробку")]
+
+//-  FEEDBACK
+section.feedback
+	h2.feedback__title Отправьте заявку и получите спецпредложение!
+
+	form.feedback__form.form
+		h3.form__title Онлайн заявка
+
+		label(aria-label="Ваше имя") #[input.form__input(type="text" placeholder="Ваше имя")]
+
+		label(aria-label="Контактный телефон") #[input.form__input(type="text" placeholder="Контактный телефон")]
+
+		textarea.form__textarea(placeholder="Комментарий")
+
+		label.form__label(aria-label="Согласие на обработку данных") #[input.form__checkbox(type="checkbox")] #[span] #[p Согласие на обработку персональных данных]
+
+		button.btn-orange(type="submit") Отправить заявку
+
+//-  CERTIFICATION
+section.certification
+	h2.main-title Сертификаты на продукцию
+
+	.certification-block
+		.swiper-container.certification-slider
+			.swiper-wrapper
+
+				.swiper-slide
+					span
+						img(src="img/sert-1.jpg", alt="Сертификат 1")
+				
+				.swiper-slide
+					span
+						img(src="img/sert-2.jpg", alt="Сертификат 2")
+
+				.swiper-slide
+					span
+						img(src="img/sert-3.jpg", alt="Сертификат 3")
+
+				.swiper-slide
+					span
+						img(src="img/sert-4.jpg", alt="Сертификат 4")
+
+				.swiper-slide
+					span
+						img(src="img/sert-3.jpg", alt="Сертификат 5")
+
+				.swiper-slide
+					span
+						img(src="img/sert-4.jpg", alt="Сертификат 6")
+		
+		.swiper-button-prev
+		.swiper-button-next

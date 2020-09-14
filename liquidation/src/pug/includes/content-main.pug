@@ -1,0 +1,357 @@
+main
+	.header-bottom
+		.libra.libra-bottom
+			span #[img(src="img/libra.png" alt="весы")]
+			p Ликвидируем компании #[br] с 2007 года
+
+		.header-slider.swiper-container
+			.swiper-wrapper
+				.swiper-slide
+					.header-slider-item
+						.header-bottom-block
+							h1 Ликвидация, банкротство ООО в Москве «под ключ»
+
+							p.info без налоговых проверок и ответственности руководства 
+							
+							.companies 
+								p БОЛЕЕ 600 компаний закрыто
+								span В 2019 году
+
+						.header-bottom-inner
+							.offer
+								ul
+									li.offer-wallet #[p Стоимость услуг #[span от 38 000 руб.]] 
+									li.offer-garant #[p Финансовая ответственность #[span до 200%]] 
+									li.offer-book #[p Гарантия на услугу #[span 3 года]] 
+
+							form.form
+								h2 Онлайн заявка
+
+								label(for="name") Введите имя:
+								input.input#name(type="text" placeholder="Имя")
+
+								label(for="phone") Телефон:
+								input.input#phone(type="text" placeholder="+7 ___ ___-__-__")
+
+								label Выберите услугу:
+								select
+									option(selected disabled) Ликвидация ООО
+									option Услуга1
+									option Услуга2
+								
+								button.btn(type="submit") Отправить заявку
+
+								label 
+									input.checkbox(type="checkbox" checked)
+									span.accept Я принимаю #[a(href="#") условия передачи информации]
+									
+
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div>
+
+	//- BANKRUPTCY
+	section.bankruptcy
+		h2.main-title Банкротство, продажа в оффшор или ликвидация
+
+		.container 
+			p.lequidation-description Ликвидация общества с ограниченной ответственностью может быть проведена альтернативным способом путем присоединения ООО к другому ООО или слияния ООО с другим ООО.#[a.show(href="#") .. #[span далее]] #[span.hide Ликвидация ООО путем присоединения представляет собой процедуру реорганизации общества, в результате которой присоединяемое общество ликвидируется и прекращает свою хозяйственную деятельность, а другое общество становится правопреемником ликвидированного общества.]
+
+	//- SITUATION
+	section.situation
+		h2.main-title В каких случаях нужна ликвидация?
+
+		.slider-block.situation-block
+
+			.situation-slider.container.swiper-container
+				.swiper-wrapper
+
+					.swiper-slide
+						.situation-item
+							.situation-inner
+								span #[img(src="img/situation-1.jpg" alt="covid19")]
+								p Пострадали от коронакризиса
+
+							p.description Ваша копания пострадала из-за пандемии коронавируса и карантинных мер.
+
+							a(href="#") Отправить заявку
+
+					
+					.swiper-slide
+						.situation-item
+							.situation-inner
+								span #[img(src="img/situation-2.jpg" alt="Спор")]
+								p Проблемы с контрагентами
+
+							p.description Возникли разногласия или конфликт с контрагентами или партнерами.
+
+							a(href="#") Отправить заявку
+
+					
+					.swiper-slide
+						.situation-item
+							.situation-inner
+								span #[img(src="img/situation-3.jpg" alt="Фнс")]
+								p Долги, проблемы с налоговой
+
+							p.description Есть недочеты в ведении бухгалтерской отчетности и назревают проблемы с налоговой.
+
+							a(href="#") Отправить заявку
+
+					.swiper-slide
+						.situation-item
+							.situation-inner
+								span #[img(src="img/situation-4.jpg" alt="Суд")]
+								p Субсидиарная ответственность
+
+							p.description Вероятность банкротства компании и привлечения вас к субсидиарной ответственности.
+
+							a(href="#") Отправить заявку
+
+			.swiper-button-prev
+			.swiper-button-next
+
+	//- STAGES
+	section.stages
+		h2.main-title Этапы работы по процедуре ликвидации, банкротства:
+
+		.stages-block.slider-block
+			.stages-slider.container.swiper-container
+				.swiper-wrapper
+
+					.swiper-slide
+						.stages-inner
+							ul.stages-list
+								li.stages-item
+									span.number 1
+									span.stages__img #[img(src="img/stages-icon-1.png" alt="человечек")]
+									p.description Оставляете заявку или #[br] звоните нам по телефону
+								
+								li.stages-item
+									span.number 2
+									span.stages__img #[img(src="img/stages-icon-2.png" alt="Академическая шапочка")]
+									p.description Юрист направляет Вам #[br] список документов
+								
+								li.stages-item
+									span.number 3
+									span.stages__img #[img(src="img/stages-icon-3.png" alt="Список")]
+									p.description Юрист готовит #[br] необходимые #[br] документы
+
+								li.stages-item
+									span.number 4
+									span.stages__img #[img(src="img/stages-icon-4.png" alt="Человек у доски")]
+									p.description Юрист проводит все этапы #[br] ликвидации
+
+								li.stages-item
+									span.number 5
+									span.stages__img #[img(src="img/stages-icon-5.png" alt="Дом")]
+									p.description Через 1 месяц Вы получаете #[br] лист записи об изменении #[br] ООО в ЕГРЮЛ
+
+								li.stages-item
+									span.number 6
+									ul.banks
+										li #[img(src="img/mastercard.png" alt="Мастер кард")]
+										li #[img(src="img/visa.png" alt="Виза")]
+										li #[img(src="img/sberbank.png" alt="Сбербанк")]
+									p.description Оплачивайте услуги, #[br] удобным для вас #[br] способом
+							
+							a.btn(href="#") Отправить заявку
+			
+			.swiper-button-prev
+			.swiper-button-next
+		
+		.info
+			.container
+				p Бесплатная консультация #[span +7 (495) 119-73-64]
+				p Предоставьте ведение процедуры банкротства нашим специалистам, и вам не придется заниматься сбором документов и присутствовать в суде.
+
+	//- SERVICES
+	section.services
+		h2.main-title Услуги и цены
+
+		table
+			tr
+				th Наименование услуги
+				th Сроки исполнения
+				th Стоимость
+				th Онлайн заявка
+
+			tr.hide-tr
+				td.title Смена собственников на резидентов
+				td #[span.hide-td Срок исполнения] #[span.time 1 месяц]
+				td #[span.hide-td Стоимость] #[span.price от 38 000 руб]
+				td #[a.btn(href="#") Отправить заявку] #[span.check]
+
+			tr
+				td.title Смена собственников на нерезидентов
+				td #[span.hide-td Срок исполнения] #[span.time 1 месяц]
+				td #[span.hide-td Стоимость] #[span.price от 54 960 руб.]
+				td #[a.btn(href="#") Отправить заявку] #[span.check]
+
+			tr.hide-tr
+				td.title Смена собственников на оффшоры
+				td #[span.hide-td Срок исполнения] #[span.time 1 месяц]
+				td #[span.hide-td Стоимость] #[span.price от 69 360 руб.]
+				td #[a.btn(href="#") Отправить заявку] #[span.check]
+
+			tr
+				td.title Смена собственников через сделку купли продажи
+				td #[span.hide-td Срок исполнения] #[span.time 7 дней]
+				td #[span.hide-td Стоимость] #[span.price от 15 000 руб.]
+				td #[a.btn(href="#") Отправить заявку] #[span.check]
+
+			tr.hide-tr
+				td.title Ликвидация ООО/ОАО с долгом
+				td #[span.hide-td Срок исполнения] #[span.time 4 месяца]
+				td #[span.hide-td Стоимость] #[span.price от 5 000 руб.]
+				td #[a.btn(href="#") Отправить заявку] #[span.check]
+
+			tr
+				td.title Официальная ликвидация фирм
+				td #[span.hide-td Срок исполнения] #[span.time 6 месяцев]
+				td #[span.hide-td Стоимость] #[span.price от 38 000 руб.]
+				td #[a.btn(href="#") Отправить заявку] #[span.check]
+
+	//- WAYS
+	section.ways
+		h2.main-title Способы ликвидации
+
+		.container
+			p.lequidation-description Ликвидация общества с ограниченной ответственностью может быть проведена альтернативным способом путем присоединения ООО к другому ООО или слияния ООО с другим ООО.#[a.show(href="#") .. #[span далее]] #[span.hide Ликвидация ООО путем присоединения представляет собой процедуру реорганизации общества, в результате которой присоединяемое общество ликвидируется и прекращает свою хозяйственную деятельность, а другое общество становится правопреемником ликвидированного общества.]
+
+			ul
+				li Путем реорганизации
+				li Через оффшор
+				li Путем смены генерального директора
+				li Добровольная ликвидация
+				li Банкротство OOO
+				li Банкротство ИП
+
+	//- SPECIALISTS
+	section.specialists
+		h2.main-title Наши специалисты
+
+		.specialists-block.slider-block
+			.specialists-slider.swiper-container.container
+				.swiper-wrapper
+
+					.swiper-slide
+						.specialists-item
+							.specialists-column
+								span #[img(src="img/specialists-1.jpg" alt="Татьяна")]
+								a.btn(href="#") Получить консультацию
+							
+							.specialists-column
+								h3 Татьяна
+								h4 Старший юрист
+								p.first Высшая школа экономики #[br] 2003-2009 
+								p.second Специалист в области регистрации изменений. Ликвидировала более 1500 компаний.
+
+					.swiper-slide
+						.specialists-item
+							.specialists-column
+								span #[img(src="img/specialists-2.jpg" alt="Никита")]
+								a.btn(href="#") Получить консультацию
+							
+							.specialists-column
+								h3 Никита
+								h4 Юрист-аналитик
+								p.first Российская академия правосудия #[br] 2002-2008
+								p.second Специалист в области ликвидации компаний с кредиторской задолженностью. Помог компаниям списать более 18 млрд рублей долга без негативных последствий для руководящих органов.
+
+					.swiper-slide
+						.specialists-item
+							.specialists-column
+								span #[img(src="img/specialists-3.jpg" alt="Тамара")]
+								a.btn(href="#") Получить консультацию
+							
+							.specialists-column
+								h3 Тамара
+								h4 Финансовый аналитик
+								p.first КемГУ 2001-2007
+								p.second Специалист по арбитражу, корпоративным и налоговым спорам.
+			
+			.swiper-button-prev
+			.swiper-button-next
+
+	//- QUESTIONS
+	section.questions
+		h2.main-title Вопросы и ответы
+
+		ul
+			li 
+				.questions-item
+					.questions-column
+						.question-column-inner
+							h3 Что такое ликвидация предприятий?
+							button(type="button").questions-button Открыть
+
+						p Ликвидация предприятия - это прекращение деятельности организации путем внесения соответствующей записи в ЕГРЮЛ, прекращение прав и обязанностей (или их передача другому лицу). Такое решение могут принять учредители предприятия. Данное решение утверждается Протоколом общего собрания учредителей, или Решением единственного участника.
+			
+			li 
+				.questions-item
+					.questions-column
+						.question-column-inner
+							h3 Когда лучше всего обращаться к юристу?
+							button(type="button").questions-button Открыть
+
+						p Ликвидация предприятия - это прекращение деятельности организации путем внесения соответствующей записи в ЕГРЮЛ, прекращение прав и обязанностей (или их передача другому лицу). Такое решение могут принять учредители предприятия. Данное решение утверждается Протоколом общего собрания учредителей, или Решением единственного участника.
+
+			li 
+				.questions-item
+					.questions-column
+						.question-column-inner
+							h3 Какие долги нельзя списать через банкротство?
+							button(type="button").questions-button Открыть
+
+						p Ликвидация предприятия - это прекращение деятельности организации путем внесения соответствующей записи в ЕГРЮЛ, прекращение прав и обязанностей (или их передача другому лицу). Такое решение могут принять учредители предприятия. Данное решение утверждается Протоколом общего собрания учредителей, или Решением единственного участника.
+
+			li 
+				.questions-item
+					.questions-column
+						.question-column-inner
+							h3 Возможна ли ликвидация фирм с нулевой отчетностью?
+							button(type="button").questions-button Открыть
+
+						p Ликвидация предприятия - это прекращение деятельности организации путем внесения соответствующей записи в ЕГРЮЛ, прекращение прав и обязанностей (или их передача другому лицу). Такое решение могут принять учредители предприятия. Данное решение утверждается Протоколом общего собрания учредителей, или Решением единственного участника.
+
+	//- ORDER
+	section.order
+		.order-container
+			h2.main-title Ликвидация компаний законными и альтернативными методами
+			p.info без налоговых проверок и ответственности руководства
+
+			form.form
+				h3 Запись на бесплатную консультацию
+
+				.form-block
+					.form-inner
+						select
+							option(selected disabled) Какая услуга вас интересует?
+							option Услуга 1
+							option Услуга 2
+						
+						label(aria-label="Ваше имя")
+							input.input(type="text" placeholder="Ваше имя")
+
+						label(aria-label="Ваш телефон")
+							input.input(type="text" placeholder="Ваш телефон")
+
+					textarea.textarea(placeholder="Комментарий...")
+
+				.form-column
+					button(type="submit") Записаться на консультацию
+					p Нажимая на кнопку «Записаться на консультацию», вы принимаете условия передачи и #[a(href="#") обработки информации]
+					label 
+						input.checkbox(type="checkbox" checked)
+						span.accept Я принимаю #[a(href="#") условия передачи информации]
+
+	//- MAP
+	sectrion.map
+		h2.main-title Наши контакты
+
+		.place
+			a.call(href="tel:+74951197364") +7 (495) 119-73-64
+			p.street Москва, Озерковский #[br] переулок, д. 12
+			span #[a(href="mailto:general@ooo-likvidator.ru") general@ooo-likvidator.ru]
+
+		.map#map

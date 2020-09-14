@@ -1,0 +1,672 @@
+.main-banner
+    .banner-slider.swiper-container
+        .swiper-wrapper
+            .swiper-slide(style="background-image:url(./img/header-banner.jpg)")
+                video.video-main(width="100%" preload="auto" autoplay="autoplay" loop="loop" muted="muted")
+                    source(src="video/video.mp4" type="video/mp4")
+
+                .banner-slider__cont 
+                    p.banner-slider__article валопрваопв Lorem ipsum dolor sit amet, consectetur adipiscing sed do eiusmod
+                    .main-banner__btn
+                        button(type="button").btn.btn-green Заказать террасу
+            .swiper-slide(style="background-image:url(./img/header-banner.jpg)")
+                .banner-slider__cont
+                    p.banner-slider__article Lorem ipsum dolor sit amet, consectetur adipiscing sed do eiusmod
+                    .main-banner__btn
+                        button(type="button").btn.btn-green Заказать террасу
+            .swiper-slide(style="background-image:url(./img/header-banner.jpg)")
+                .banner-slider__cont
+                    p.banner-slider__article Lorem ipsum dolor sit amet, consectetur adipiscing sed do eiusmod
+                    .main-banner__btn
+                        button(type="button").btn.btn-green Заказать террасу
+            .swiper-slide(style="background-image:url(./img/header-banner.jpg)")
+                .banner-slider__cont
+                    p.banner-slider__article Lorem ipsum dolor sit amet, consectetur adipiscing sed do eiusmod
+                    .main-banner__btn
+                        button(type="button").btn.btn-green Заказать террасу
+                    
+        .swiper-pagination
+        .swiper-button-next.swiper-button-white
+        .swiper-button-prev.swiper-button-white
+    
+.content.card-top
+    p.content-title-mob Карточка товара
+    
+    .product-list-slider.swiper-container
+        .swiper-wrapper
+            .swiper-slide
+                a(href="#").product-link UnoDeck Forte
+            .swiper-slide
+                a(href="#").product-link.is-active UnoDeck Forte
+            .swiper-slide
+                a(href="#").product-link Uno Deck Scala
+            .swiper-slide
+                a(href="#").product-link UnoDeck Ultra
+            .swiper-slide
+                a(href="#").product-link UnoDeck Forte
+            .swiper-slide
+                a(href="#").product-link UnoDeck Forte
+            .swiper-slide
+                a(href="#").product-link Uno Deck Scala
+            .swiper-slide
+                a(href="#").product-link UnoDeck Ultra
+    
+    .product-slider-mob.swiper-container
+        .swiper-wrapper
+            .swiper-slide
+                img(src="img/product-1.jpg")
+            .swiper-slide
+                img(src="img/product-1.jpg")
+            .swiper-slide
+                img(src="img/product-1.jpg")
+            .swiper-slide
+                img(src="img/product-1.jpg")
+            .swiper-slide
+                img(src="img/product-1.jpg")
+            .swiper-slide
+                img(src="img/product-1.jpg")
+        
+        .swiper-pagination
+                
+    .content__inner.content__inner_product
+        .sidebar.sidebar-product
+            .sidebar__title  Карточка товара
+            
+            ul.sidebar-list.sidebar-list__top
+                li
+                    a(href="#").is-active UnoDeck Vintage
+                li   
+                    a(href="#") UnoDeck Ultra
+                li
+                    a(href="#") UnoDeck Mogano
+                li
+                    a(href="#") UnoDeck Solid
+                li
+                    a(href="#") UnoDeck Scala
+                li
+                    a(href="#") UnoDeck Forte
+                li
+                    a(href="#") UnoDeck Patio
+                li
+                    a(href="#") UnoDeck Ultra
+                li
+                    a(href="#") UnoDeck Mogano
+        
+        .product-info
+            p.product-title Uno Deck Scala
+            p.product-type Cтупень 150 x 24 мм
+            p.product-price.product-info__price 2 350 
+                span рублей
+            
+            .select-wrap
+                select.select-cat
+                    option  Ед. измерения: кв. м
+                    option  Ед. измерения: кв. м
+                    option  Ед. измерения: кв. м
+                    
+            .select-wrap.select-wrap_color
+                select.select-cat
+                    option(value="polisandr") ЦВЕТ: Полисандр
+                    option(value="venge") ЦВЕТ: Венге
+            
+            .product-info__btn-wrap
+                button(type="button").btn.order-btn Сделать заказ
+            
+            p.product-info__article.article Ступени из ДПК являются идеальным вариантом для выполнения работ по обустройству крыльца и террасы, открытых спусков и подходов к дому. Благодаря своей полнотелости ступень способна выдерживать повышенные нагрузки при эксплуатации.
+            
+            ul.product-list
+                li Размер: 150 x 24 мм
+                li Длина: 3 или 4 м
+                li Профиль: полнотелый
+                li Внешняя обработка: 1 рабочая сторона
+                li Текстура: крупный вельвет
+                li Цветовая гамма: венге, графит, орех, палисандр, серый
+                li Вес 1 пог. М: 7,6 кг
+                li Производитель: RusDecking (Россия)
+                li Гарантия: 2 года
+                li Доставка: Москва и область — 1–2 рабочих дня
+                li Оплата: наличными, картой или банковским переводом
+                 
+        .scroll-block
+            .image-block
+                .product-image
+                    img(src="img/product-1.jpg")
+                    //- .product-image__article    
+                    //-     p.product-title Uno Deck Scala
+                    //-     p.product-type Cтупень 150 x 24 мм
+                        
+                ul.product-thumb
+                    li
+                        .product-thumb__show
+                            .product-thumb__item.product-thumb__item-left
+                                img(src="img/product-type-1.jpg")
+                            .product-thumb__item.product-thumb__item-right
+                                img(src="img/prod.jpg")
+                                .loop
+                        
+                        .product-thumb__hidden
+                            img(src="img/type-img-2.jpg")
+                            .loop-close
+                            
+                    li
+                        .product-thumb__show
+                            .product-thumb__item.product-thumb__item-left
+                                img(src="img/product-type-2.jpg")
+                            .product-thumb__item.product-thumb__item-right
+                                img(src="img/product-2.jpg")
+                                .loop
+                        
+                        .product-thumb__hidden
+                            img(src="img/type-img-1.jpg") 
+                            .loop-close
+                                
+                .product-image
+                    img(src="img/product-1.jpg")
+                        
+                ul.product-color
+                    li
+                        .product-color__img
+                            img(src="img/product-color.jpg")
+                        .product-color__title Venge
+                    li
+                        .product-color__img
+                            img(src="img/product-color.jpg")
+                        .product-color__title Grafit
+                        
+                    li
+                        .product-color__img
+                            img(src="img/product-color.jpg")
+                        .product-color__title Nut
+                        
+                    li
+                        .product-color__img
+                            img(src="img/product-color.jpg")
+                        .product-color__title Venge
+                        
+                    li
+                        .product-color__img
+                            img(src="img/product-color.jpg")
+                        .product-color__title Venge
+                        
+                .product-image
+                    img(src="img/terasa.jpg")
+                
+                  
+                
+.content.catalog-top
+    p.content-title-mob Каталог
+    
+    .product-list-slider.swiper-container
+        .swiper-wrapper
+            .swiper-slide
+                a(href="#").product-link Все
+            .swiper-slide
+                a(href="#").product-link.is-active Террасная доска
+            .swiper-slide
+                a(href="#").product-link UnoDeck Mogano
+            .swiper-slide
+                a(href="#").product-link Ступени
+            .swiper-slide
+                a(href="#").product-link Заборная доска
+            .swiper-slide
+                a(href="#").product-link Заборы
+            .swiper-slide
+                a(href="#").product-link Ограждения
+            .swiper-slide
+                a(href="#").product-link Комплектующие
+    
+    .catalog-select.catalog-select_mob
+        select.select-cat
+            option  INDIWOOD
+            option  INDIWOOD
+            option  INDIWOOD
+    
+    .content__inner.content__catalog        
+        .sidebar.sidebar_catalog
+            .sidebar__title  Каталог
+            
+            ul.sidebar-list
+                li
+                    a(href="#").is-active Все
+                li   
+                    a(href="#") Террасная доска
+                li
+                    a(href="#") UnoDeck Mogano
+                li
+                    a(href="#") Ступени
+                li
+                    a(href="#") Заборная доска
+                li
+                    a(href="#") Заборы
+                li
+                    a(href="#") Ограждения
+                li
+                    a(href="#") Комплектующие
+                    
+        .catalog-list-wrap
+            .catalog-list            
+                ul
+                    li.catalog-list__item
+                        p.catalog-list__title Uno deck vintage
+                        p.catalog-list__article Террасная доска 150x24 mm
+                        p.product-price.product-info__price 2 350 
+                            span рублей
+                        
+                        .select-wrap.catalog-list__select
+                            select.select-cat
+                                option  Ед. измерения: кв. м
+                                option  Ед. измерения: кв. м
+                                option  Ед. измерения: кв. м
+                        
+                        ul.color-preview
+                            li
+                                .color-preview__img
+                                    img(src="img/color-1.png")
+                            li
+                                .color-preview__img
+                                    img(src="img/color-2.png")
+                            li
+                                .color-preview__img
+                                    img(src="img/color-3.png")
+                            li
+                                .color-preview__img
+                                    img(src="img/color-4.png")
+                        
+                        .catalog-img
+                            img(src="img/cat-img-1.jpg")
+                    li.catalog-list__item
+                        p.catalog-list__title Uno deck vintage
+                        p.catalog-list__article Террасная доска 150x24 mm
+                        p.product-price.product-info__price 2 550 
+                            span рублей
+                        
+                        .select-wrap.catalog-list__select
+                            select.select-cat
+                                option  Ед. измерения: кв. м
+                                option  Ед. измерения: кв. м
+                                option  Ед. измерения: кв. м
+                        
+                        ul.color-preview
+                            li
+                                .color-preview__img
+                                    img(src="img/color-1.png")
+                            li
+                                .color-preview__img
+                                    img(src="img/color-2.png")
+                            li
+                                .color-preview__img
+                                    img(src="img/color-3.png")
+                            li
+                                .color-preview__img
+                                    img(src="img/color-4.png")
+                        
+                        .catalog-img
+                            img(src="img/cat-img-2.jpg")                        
+                    li.catalog-list__item
+                        p.catalog-list__title Uno deck vintage
+                        p.catalog-list__article Террасная доска 150x24 mm
+                        p.product-price.product-info__price 2 350 
+                            span рублей
+                        
+                        .select-wrap.catalog-list__select
+                            select.select-cat
+                                option  Ед. измерения: кв. м
+                                option  Ед. измерения: кв. м
+                                option  Ед. измерения: кв. м
+                        
+                        ul.color-preview
+                            li
+                                .color-preview__img
+                                    img(src="img/color-1.png")
+                            li
+                                .color-preview__img
+                                    img(src="img/color-2.png")
+                            li
+                                .color-preview__img
+                                    img(src="img/color-3.png")
+                            li
+                                .color-preview__img
+                                    img(src="img/color-4.png")
+                        
+                        .catalog-img
+                            img(src="img/cat-img-3.jpg")
+                    li.catalog-list__item
+                        p.catalog-list__title Uno deck vintage
+                        p.catalog-list__article Террасная доска 150x24 mm
+                        p.product-price.product-info__price 2 350 
+                            span рублей
+                        
+                        .select-wrap.catalog-list__select
+                            select.select-cat
+                                option  Ед. измерения: кв. м
+                                option  Ед. измерения: кв. м
+                                option  Ед. измерения: кв. м
+                        
+                        ul.color-preview
+                            li
+                                .color-preview__img
+                                    img(src="img/color-1.png")
+                            li
+                                .color-preview__img
+                                    img(src="img/color-2.png")
+                            li
+                                .color-preview__img
+                                    img(src="img/color-3.png")
+                            li
+                                .color-preview__img
+                                    img(src="img/color-4.png")
+                        
+                        .catalog-img
+                            img(src="img/cat-img-4.jpg")
+                    li.catalog-list__item
+                        p.catalog-list__title Uno deck vintage
+                        p.catalog-list__article Террасная доска 150x24 mm
+                        p.product-price.product-info__price 295 
+                            span рублей
+                        
+                        .select-wrap.catalog-list__select
+                            select.select-cat
+                                option  Ед. измерения: кв. м
+                                option  Ед. измерения: кв. м
+                                option  Ед. измерения: кв. м
+                        
+                        ul.color-preview
+                            li
+                                .color-preview__img
+                                    img(src="img/color-1.png")
+                            li
+                                .color-preview__img
+                                    img(src="img/color-2.png")
+                            li
+                                .color-preview__img
+                                    img(src="img/color-3.png")
+                            li
+                                .color-preview__img
+                                    img(src="img/color-4.png")
+                        
+                        .catalog-img
+                            img(src="img/cat-img-5.jpg")                        
+                    li.catalog-list__item
+                        p.catalog-list__title Uno deck vintage
+                        p.catalog-list__article Террасная доска 150x24 mm
+                        p.product-price.product-info__price 1 890 
+                            span рублей
+                        
+                        .select-wrap.catalog-list__select
+                            select.select-cat
+                                option  Ед. измерения: кв. м
+                                option  Ед. измерения: кв. м
+                                option  Ед. измерения: кв. м
+                        
+                        ul.color-preview
+                            li
+                                .color-preview__img
+                                    img(src="img/color-1.png")
+                            li
+                                .color-preview__img
+                                    img(src="img/color-2.png")
+                            li
+                                .color-preview__img
+                                    img(src="img/color-3.png")
+                            li
+                                .color-preview__img
+                                    img(src="img/color-4.png")
+                        
+                        .catalog-img
+                            img(src="img/cat-img-6.jpg")
+                    li.catalog-list__item
+                        p.catalog-list__title Uno deck vintage
+                        p.catalog-list__article Террасная доска 150x24 mm
+                        p.product-price.product-info__price 2 350 
+                            span рублей
+                        
+                        .select-wrap.catalog-list__select
+                            select.select-cat
+                                option  Ед. измерения: кв. м
+                                option  Ед. измерения: кв. м
+                                option  Ед. измерения: кв. м
+                        
+                        ul.color-preview
+                            li
+                                .color-preview__img
+                                    img(src="img/color-1.png")
+                            li
+                                .color-preview__img
+                                    img(src="img/color-2.png")
+                            li
+                                .color-preview__img
+                                    img(src="img/color-3.png")
+                            li
+                                .color-preview__img
+                                    img(src="img/color-4.png")
+                        
+                        .catalog-img
+                            img(src="img/cat-img-7.jpg")
+                    li.catalog-list__item
+                        p.catalog-list__title Uno deck vintage
+                        p.catalog-list__article Террасная доска 150x24 mm
+                        p.product-price.product-info__price 2 550 
+                            span рублей
+                        
+                        .select-wrap.catalog-list__select
+                            select.select-cat
+                                option  Ед. измерения: кв. м
+                                option  Ед. измерения: кв. м
+                                option  Ед. измерения: кв. м
+                        
+                        ul.color-preview
+                            li
+                                .color-preview__img
+                                    img(src="img/color-1.png")
+                            li
+                                .color-preview__img
+                                    img(src="img/color-2.png")
+                            li
+                                .color-preview__img
+                                    img(src="img/color-3.png")
+                            li
+                                .color-preview__img
+                                    img(src="img/color-4.png")
+                        
+                        .catalog-img
+                            img(src="img/cat-img-8.jpg")                        
+                    li.catalog-list__item
+                        p.catalog-list__title Uno deck vintage
+                        p.catalog-list__article Террасная доска 150x24 mm
+                        p.product-price.product-info__price 2 350 
+                            span рублей
+                        
+                        .select-wrap.catalog-list__select
+                            select.select-cat
+                                option  Ед. измерения: кв. м
+                                option  Ед. измерения: кв. м
+                                option  Ед. измерения: кв. м
+                        
+                        ul.color-preview
+                            li
+                                .color-preview__img
+                                    img(src="img/color-1.png")
+                            li
+                                .color-preview__img
+                                    img(src="img/color-2.png")
+                            li
+                                .color-preview__img
+                                    img(src="img/color-3.png")
+                            li
+                                .color-preview__img
+                                    img(src="img/color-4.png")
+                        
+                        .catalog-img
+                            img(src="img/cat-img-9.jpg")
+                    li.catalog-list__item
+                        p.catalog-list__title Uno deck vintage
+                        p.catalog-list__article Террасная доска 150x24 mm
+                        p.product-price.product-info__price 2 350 
+                            span рублей
+                        
+                        .select-wrap.catalog-list__select
+                            select.select-cat
+                                option  Ед. измерения: кв. м
+                                option  Ед. измерения: кв. м
+                                option  Ед. измерения: кв. м
+                        
+                        ul.color-preview
+                            li
+                                .color-preview__img
+                                    img(src="img/color-1.png")
+                            li
+                                .color-preview__img
+                                    img(src="img/color-2.png")
+                            li
+                                .color-preview__img
+                                    img(src="img/color-3.png")
+                            li
+                                .color-preview__img
+                                    img(src="img/color-4.png")
+                        
+                        .catalog-img
+                            img(src="img/cat-img-10.jpg")
+                    li.catalog-list__item
+                        p.catalog-list__title Uno deck vintage
+                        p.catalog-list__article Террасная доска 150x24 mm
+                        p.product-price.product-info__price 295 
+                            span рублей
+                        
+                        .select-wrap.catalog-list__select
+                            select.select-cat
+                                option  Ед. измерения: кв. м
+                                option  Ед. измерения: кв. м
+                                option  Ед. измерения: кв. м
+                        
+                        ul.color-preview
+                            li
+                                .color-preview__img
+                                    img(src="img/color-1.png")
+                            li
+                                .color-preview__img
+                                    img(src="img/color-2.png")
+                            li
+                                .color-preview__img
+                                    img(src="img/color-3.png")
+                            li
+                                .color-preview__img
+                                    img(src="img/color-4.png")
+                        
+                        .catalog-img
+                            img(src="img/cat-img-11.jpg")                        
+                    li.catalog-list__item
+                        p.catalog-list__title Uno deck vintage
+                        p.catalog-list__article Террасная доска 150x24 mm
+                        p.product-price.product-info__price 1 890 
+                            span рублей
+                        
+                        .select-wrap.catalog-list__select
+                            select.select-cat
+                                option  Ед. измерения: кв. м
+                                option  Ед. измерения: кв. м
+                                option  Ед. измерения: кв. м
+                        
+                        ul.color-preview
+                            li
+                                .color-preview__img
+                                    img(src="img/color-1.png")
+                            li
+                                .color-preview__img
+                                    img(src="img/color-2.png")
+                            li
+                                .color-preview__img
+                                    img(src="img/color-3.png")
+                            li
+                                .color-preview__img
+                                    img(src="img/color-4.png")
+                        
+                        .catalog-img
+                            img(src="img/cat-img-12.jpg")
+            
+                ul.catalog-list__more
+                    li.catalog-list__item
+                    li.catalog-list__item
+                        button(type="button").btn-more Смотреть еще
+                    li.catalog-list__item
+                                       
+            
+                
+.application-block
+    p.main-title.application-block__title 
+        b Применение 
+        |indiwood
+    .block-article.block-article_compact.article
+        p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    .btn-block.btn-block_application
+        button(type="button").btn.btn-green.application-block__btn.call-btn Оставить заявку
+    
+    ul.photo-list.photo-list_aplication
+        li.photo-list__item
+            .photo-list__img
+                img(src="img/application-1.jpg")
+            
+            ul.photo-list__article
+                li 01
+                li Жилые дома и дачи
+                li
+                    button(type="button").btn.photo-list__btn Подробнее
+                    
+        li.photo-list__item
+            .photo-list__img
+                img(src="img/application-2.jpg")
+            
+            ul.photo-list__article
+                li 02
+                li Рестораны и кафе
+                li
+                    button(type="button").btn.photo-list__btn Подробнее
+                    
+        li.photo-list__item
+            .photo-list__img
+                img(src="img/application-3.jpg")
+            
+            ul.photo-list__article
+                li 03
+                li Эксплуатиремая кровля
+                li
+                    button(type="button").btn.photo-list__btn Подробнее
+                    
+        li.photo-list__item
+            .photo-list__img
+                img(src="img/application-4.jpg")
+            
+            ul.photo-list__article
+                li 04
+                li Парки и зоны отдыха
+                li
+                    button(type="button").btn.photo-list__btn Подробнее
+                    
+        li.photo-list__item
+            .photo-list__img
+                img(src="img/application-5.jpg")
+            
+            ul.photo-list__article
+                li 05
+                li Пирсы и причалы
+                li
+                    button(type="button").btn.photo-list__btn Подробнее
+                    
+        li.photo-list__item
+            .photo-list__img
+                img(src="img/application-6.jpg")
+            
+            ul.photo-list__article
+                li 06
+                li Территория вокруг бассейна
+                li
+                    button(type="button").btn.photo-list__btn Подробнее
+    
+    p.calc-title 
+        b Калькулятор террас и заборов
+    p.main-title.application-block__title indiwood
+    
+    .block-article.block-article_compact.article
+        p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        
+    .btn-block.btn-block_calc
+        button(type="button").btn.btn-green.application-block__btn Рассчитать стоимость                

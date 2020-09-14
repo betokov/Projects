@@ -1,0 +1,45 @@
+.btn {
+    text-transform: uppercase;
+    color: white;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    height: 50px;
+    transition: 0.5s;
+}
+
+.btn-green {
+    background: #93856f;
+    border: 1px solid #93856f;
+    &:hover{
+        background: none;
+        color: #93856f;
+    }
+}
+
+.main-title {
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    @media(max-width: 767px){
+        font-size: 18px;
+    }
+}
+
+.block-article {
+    line-height: 32px;
+    font-size: 18px;
+}
+
+.btn-black {
+    background: #343434;
+    max-width: 313px;
+    width: 100%;
+    border: 1px solid #343434;
+    transition: 0.5s;
+    &:hover{
+        background: none;
+        color: #343434;
+    }
+}
